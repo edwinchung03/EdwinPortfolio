@@ -1,30 +1,12 @@
 /*-----------------------------------------------------------------------------------
 
-  Theme Name: Ractic Creative HTML 5 Template
-  Author: Creative-hunk
-  Support: 
-  Description: Ractic Creative HTML 5 Template
-  Version: 1.0
 
 -----------------------------------------------------------------------------------
 
     CSS INDEX
     ===================
 
-    1. common
-	2. header
-	3. hero
-	4. category
-	5. about
-	6. service
-	7. counter
-	8. skills
-	9. portfolio
-	10. testimonial
-	11. blog
-	12. contact
-	13. map
-	14. footer
+
 
 
 
@@ -486,42 +468,64 @@ a:hover {
   top: 140px;
 }
 
-/*
-	8. skills
-*/
-.skills__area-1 {
-  padding-bottom: 100px;
+.experience__area-1 {
+  padding: 100px 0;
+  background-color: var(--navy-1);
 }
 
-.skillRight {
-  padding-left: 60px;
+.experience__subtitle {
+  font-size: 18px;
+  color: var(--primary);
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
-.skills-name {
-  margin-bottom: 30px;
-  padding-bottom: 8px;
+.experience__title {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 40px;
+
 }
 
-.progress-content {
+.experience__timeline {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 15px;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.progress-bar {
-  width: 100%;
-  margin: 0;
-  margin-top: 0;
-  background-color: #ddd;
-  border-radius: 50px;
-  height: 10px;
+.experience__item {
+  padding: 25px;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
 }
 
-.progress.progress-bar-height {
-  height: 100%;
-  border-radius: 50px;
-  background: linear-gradient(280deg, var(--primary) 0%, var(--secondary) 100%);
+.job-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black-2);
+  margin-bottom: 5px;
 }
+
+.company-name {
+  color: var(--secondary);
+}
+
+.job-duration {
+  font-size: 16px;
+  color: var(--gray-2);
+  margin-bottom: 10px;
+  display: block;
+}
+
+.job-description {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--black-1);
+}
+
 
 /*
 	9. portfolio
